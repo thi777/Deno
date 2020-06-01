@@ -6,7 +6,7 @@ import {
   create,
   update,
   remove,
-} from "../src/app/controllers.ts";
+} from "../src/app/controllers/usersController/createUsers.ts";
 
 export const router = new Router();
 

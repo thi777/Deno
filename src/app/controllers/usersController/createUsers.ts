@@ -1,6 +1,6 @@
-import Iuser from "./models.ts";
+import IUser from "../../models/Users.ts";
 
-let User: Array<Iuser> = [];
+let User: Array<IUser> = [];
 
 export const getAll = ({ response }: { response: any }) => {
   response.body = User;
